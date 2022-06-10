@@ -1,0 +1,34 @@
+{
+    "3308415552676027937": {
+        "listingid": "3308415552676027937",
+        "price": 227,
+        "fee": 33,
+        "publisher_fee_app": 730,
+        "publisher_fee_percent": "0.100000001490116119",
+        "currencyid": 2001,
+        "steam_fee": 11,
+        "publisher_fee": 22,
+        "converted_price": 227,
+        "converted_fee": 33,
+        "converted_currencyid": 2001,
+        "converted_steam_fee": 11,
+        "converted_publisher_fee": 22,
+        "converted_price_per_unit": 227,
+        "converted_fee_per_unit": 33,
+        "converted_steam_fee_per_unit": 11,
+        "converted_publisher_fee_per_unit": 22,
+        "asset": {
+            "currency": 0,
+            "appid": 730,
+            "contextid": "2",
+            "id": "19686781088",
+            "amount": "1",
+            "market_actions": [
+                {
+                    "link": "steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D3377805473026752703",
+                    "name": "Inspect in Game..."
+                }
+            ]
+        }
+    }
+}

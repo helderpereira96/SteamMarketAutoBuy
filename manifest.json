@@ -1,0 +1,15 @@
+{
+    "manifest_version" : 2,
+    "name": "MyExtensionAPI",
+    "version": "0.1",
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+    "permissions": ["storage"],
+    "web_accessible_resources": [
+        "alert.mp3",
+        "http://*/"
+    ],
+    "content_scripts": [{
+        "matches": ["https://steamcommunity.com/market/listings/730/AWP%20%7C%20Asiimov%20%28Battle-Scarred%29/*"],
+        "js": ["index.js", "jquery-3.5.1.min.js"]
+      }]
+    } 

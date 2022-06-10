@@ -1,0 +1,384 @@
+<div id="pnlDocuSign">
+	  
+                
+    <hr align="left"  size="1" color="black" class="boletim"/>              
+
+    
+    <div id="pnlCabecalho">
+   
+        <div style="text-align:center">
+            <span id="lblDadosContrato" class="itemTitulo" style="font-weight:bold;">Dados do Contrato</span>
+        </div>
+        <hr align="left"  size="1" color="black"/>
+        <div>
+            <table id="tbInformacoesContrato" style="width: 930px">                   
+                <tr>
+                    <td style="width:15%">
+                        <span id="lblNumeroMedicao" class="lblTitulo">Medição:</span>
+                    </td>
+                    <td style="width:35%">
+                        <span id="lblPeriodo" class="lblTitulo">Período:</span>
+                    </td>
+                    <td style="width:20%">
+                        <span id="lblNumeroContrato" class="lblTitulo">Número do Contrato:</span>
+                    </td>                   
+                    <td style="width:15%">
+                        <span id="lblDataInicio" class="lblTitulo">Início:</span>
+                    </td>
+                    <td style="width:15%">
+                        <span id="lblDataTermino" class="lblTitulo">Término:</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span id="txtNumeroMedicao">6</span>
+                    </td>
+                    <td>
+                        <span id="txtPeriodo">04/11/2020 a 04/11/2020</span>
+                    </td>
+                    <td>
+                        <span id="txtNumeroContrato">111</span>
+                    </td>                  
+                    <td>
+                        <span id="txtDataInicio">03/11/2020</span>
+                    </td>
+                    <td>
+                        <span id="txtDataTermino">30/11/2020</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <span id="lblDescricao" class="lblTitulo">Descrição:</span>
+                    </td> 
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <span id="txtDescricao">TESTE</span>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>
+                        <span id="lblCodFornecedor" class="lblTitulo">Cod.Fornecedor:</span>
+                    </td> 
+                        <td>
+                        <span id="lblFornecedor" class="lblTitulo">Fornecedor:</span>
+                    </td> 
+                    <td colspan="3">
+                        <span id="lblLote" class="lblTitulo">Lote:</span>
+                    </td>  
+                </tr>
+                <tr>
+                    <td>
+                        <span id="txtCodFornecedor"></span>
+                    </td> 
+                    <td>
+                        <span id="txtFornecedor">Essencial Locadora de Máquinas e Equipamentos Eireli</span>
+                    </td> 
+                    <td colspan="3">
+                        <span id="txtLote">ÚNICO</span>
+                    </td>
+                </tr> 
+                
+            </table>  
+        </div>
+    
+</div>
+    <div id="pnlEtapa1">
+  
+
+    <!-- GRID RATEIOS -->
+
+    <input name="hdnIdMedicao" type="hidden" id="hdnIdMedicao" value="458" />
+    <input name="hdnIdContrato" type="hidden" id="hdnIdContrato" value="26069" />
+
+    <div class="retirarBoletim" style="display: none">                    
+        <hr align="left"  size="1" color="black"/><br />               
+        <div style="text-align:left">
+            <span id="lblTituloRateioContrato" class="itemTitulo" style="font-weight:bold;">RATEIO DO CONTRATO</span>
+        </div>
+        <div style="text-align:left">
+            <div>
+    <table class="gridtable2" cellspacing="0" cellpadding="2" border="0" id="grvRateio" style="color:Black;background-color:LightGoldenrodYellow;border-color:Tan;border-width:1px;border-style:solid;width:100%;border-collapse:collapse;margin-top: 5px; margin-right: 5px; ">
+        <tr class="gridtable2header" style="background-color:Tan;font-weight:bold;">
+            <td align="left" valign="middle">Item do Contrato</td><td align="left" valign="middle">Centro Logistico</td><td align="left" valign="middle" style="width:150px;">C&#243;d.Dep&#243;sito</td><td align="center" valign="middle" style="width:40px;">Rateio</td>
+        </tr><tr class="gridtable2row">
+            <td align="left" valign="middle">1</td><td align="left" valign="middle">PBAR - WPBAR- CONS. PARQUE DE EXPOSI&#199;&#213;ES BARRA LONGA</td><td align="left" valign="middle">0001 - Armaz&#233;m Obra</td><td align="center" valign="middle">100,00%</td>
+        </tr>
+    </table>
+</div>
+        </div>
+    </div>
+    <!-- GRID MEDIÇÕES -->        
+    <br />
+    <div class="boletim" style="width: 100%; height: 30px; background-color: #b3ffb3; text-align: center; vertical-align: middle; line-height: 30px; margin-bottom: 10px">
+        <b style="color: #006600">APROVADO</b>
+    </div>
+    <div style="text-align:left" >
+        <span id="lblTituloMedicao" class="itemTitulo" style="font-weight:bold;">MEDIÇÕES</span>
+    </div>
+    <hr align="left"  size="1" color="black"/><br />
+    <div style="padding-top:10px"> 
+    
+    
+            <table id="tbItensMedicao" class="gridtable2" cellspacing="0" cellpadding="1" align="left" border="0" style="font-size: 9px; width:1200px; padding-bottom:5px; border-color: Tan; border-width: 0px; border-style: solid; border-collapse: collapse; table-layout:fixed; word-wrap: break-word">
+                <tbody>
+                    <tr>
+                        <td style="width: 50px"></td>
+                        <td style="width: 250px"></td>
+                        <td style="width: 55px"></td>
+                        <td style="width: 0.5px"></td>
+                        <td style="width: 197px" align="center" class="tdCab" colspan="8" valign="middle">CONTRATO BASE</td>
+                        <td style="width: 0.5px"></td>
+                        <td style="width: 130px" align="center" class="tdCab" colspan="5" valign="middle">ACUMULADO ANTERIOR</td>
+                        <td style="width: 0.5px"></td>
+                        <td style="width: 130px; border-top: 3px solid red; border-right: 3px solid red; border-left: 3px solid red; font-weight: bolder" align="center" class="tdCab borderT borderR borderL" colspan="5" valign="middle">
+                            <strong class="boletimBold">MEDIÇÃO ATUAL</strong>
+                        </td>
+                        <td style="width: 0.5px"></td>
+                        <td style="width: 130px" align="center" class="tdCab" colspan="5" valign="middle">ACUMULADO ATUAL</td>
+                        <td style="width: 0.5px"></td>
+                        <td style="width: 130px" align="center" class="tdCab" colspan="5" valign="middle">SALDO CONTRATO</td>
+                        <td style="width: 0.5px"></td>
+                        <td style="width: 80px;"></td>
+                    </tr>
+                    <tr class="gridtable2header" style="background-color: Tan; font-weight: bold;">
+                        <td align="left" valign="middle">Ordem</td>
+                        <td align="center" style="" valign="middle">Descrição</td>
+                        <td align="center" valign="middle">Unidade</td>
+                         <td class="colDiv">
+
+                        </td>
+                        <td colspan="2" align="left" valign="middle" class="tbValor">Qtde</td>
+                        <td colspan="3" align="left" valign="middle" class="tbValor">Unitário</td>                            
+                        <td colspan="3" align="left" valign="middle" class="tbValor">Total</td>
+                        <td class="colDiv">
+
+                        </td>
+                        <td colspan="2" align="left" valign="middle" class="tbValor">Qtde</td>                            
+                        <td colspan="3" align="left" valign="middle" class="tbValor">Total</td>
+                        <td class="colDiv">
+
+                        </td>
+                        <td colspan="2" align="left" valign="middle" class="tbValor borderL boletimBold" style="border-left: 3px solid red; font-weight: bolder">Qtde</td>
+                        <td colspan="3" align="left" valign="middle" class="tbValor borderR boletimBold" style="border-right: 3px solid red; font-weight: bolder">Total</td>
+                        <td class="colDiv">
+
+                        </td>
+                        <td colspan="2" colspan="2" align="left" valign="middle" class="tbValor">Qtde</td>
+                        <td colspan="3" align="left" valign="middle" class="tbValor">Total</td>
+                        <td class="colDiv">
+
+                        </td>
+                        <td colspan="2" align="left" valign="middle" class="tbValor">Qtde</td>
+                        <td colspan="3" align="left" valign="middle" class="tbValor">Valor</td>
+                        <td class="colDiv">
+
+                        </td>
+                        <td align="center" valign="middle">Observação</td>
+                    </tr>
+        
+            <tr class="gridtable2row" >
+                <td align="left" valign="middle">                            
+                    <span id="rptItensMedicao_ctl01_lblItemMedicao" style="display:none;">LOCAÇÃO DE BANHEIRO QUÍMICO</span>
+                    <span id="rptItensMedicao_ctl01_lblOrdem">1,00</span>
+                    <span id="rptItensMedicao_ctl01_lblIDContratoItemMedicao" style="display:none;">1480</span>
+                    <span id="rptItensMedicao_ctl01_lblValorReferencia" style="display:none;">20000,00</span>
+                    <span id="rptItensMedicao_ctl01_lblIDMedicaoLancamento" style="display:none;">0</span>                            
+                </td>
+                <td align="left" valign="middle" style=" word-wrap:break-word;">LOCAÇÃO DE BANHEIRO QUÍMICO</td>
+                <td align="center" valign="middle" style="width:60px; border-right: 1px solid tan;">UN</td>
+                <td class="colDiv"></td>
+                <td colspan="2" align="left" valign="middle" class="tbValor">
+                    100
+                </td>
+                <td colspan="3" align="left" valign="middle" class="tbValor">
+                    <span id="rptItensMedicao_ctl01_lblValorBase">R$20.000,00</span>
+                </td>                     
+                <td colspan="3" align="left" valign="middle" class="tbValor">                        
+                    <span id="rptItensMedicao_ctl01_lblTotalBase">R$2.000.000,00</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2" align="left" valign="middle" class="tbValor">                                              
+                    <span id="rptItensMedicao_ctl01_lblQtdeAcumulado" title="3.00">3.00</span>
+                </td>
+                <td colspan="3" align="left" valign="middle" class="tbValor">                        
+                    <span id="rptItensMedicao_ctl01_lblTotalAcumulado">R$60.000,00</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2" align="left" valign="middle" class="tbValor borderL" style="border-left: 3px solid red">
+                    <span id="rptItensMedicao_ctl01_lblQuantidade" title="0.00">0.00</span>
+                </td>
+                <td colspan="3" align="left" valign="middle" class="tbValor borderR" style="border-right: 3px solid red">                        
+                    <span id="rptItensMedicao_ctl01_lblTotalAtual">R$0,00</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2" align="left" valign="middle" class="tbValor">                        
+                    <span id="rptItensMedicao_ctl01_lblQtdeAcumAtual" title="3.00">3.00</span>
+                </td>                    
+                <td colspan="3" align="left" valign="middle" class="tbValor">
+                    <span id="rptItensMedicao_ctl01_lblTotalAcumAtual">R$60.000,00</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2" align="left" valign="middle">
+                    <span id="rptItensMedicao_ctl01_Label2" title="97.00">97.00</span>
+                </td>                    
+                <td colspan="3" align="left" valign="middle" class="tbValor">
+                    <span id="rptItensMedicao_ctl01_lblValorSaldo">R$1.940.000,00</span>
+                </td>     
+                <td class="colDiv"></td>
+                <td align="center" valign="middle">
+                    <span id="rptItensMedicao_ctl01_lblObservacao" class="lblTitulo"></span>
+                </td>                    
+            </tr>
+        
+            <tr class="gridtable2row" style='background-color: PaleGoldenrod'>
+                <td align="left" valign="middle">                            
+                    <span id="rptItensMedicao_ctl02_lblItemMedicao" style="display:none;">PCRC-05</span>
+                    <span id="rptItensMedicao_ctl02_lblOrdem">2,00</span>
+                    <span id="rptItensMedicao_ctl02_lblIDContratoItemMedicao" style="display:none;">1481</span>
+                    <span id="rptItensMedicao_ctl02_lblValorReferencia" style="display:none;">70001,00</span>
+                    <span id="rptItensMedicao_ctl02_lblIDMedicaoLancamento" style="display:none;">0</span>                            
+                </td>
+                <td align="left" valign="middle" style=" word-wrap:break-word;">PCRC-05</td>
+                <td align="center" valign="middle" style="width:60px; border-right: 1px solid tan;">UN</td>
+                <td class="colDiv"></td>
+                <td colspan="2" align="left" valign="middle" class="tbValor">
+                    50
+                </td>
+                <td colspan="3" align="left" valign="middle" class="tbValor">
+                    <span id="rptItensMedicao_ctl02_lblValorBase">R$70.001,00</span>
+                </td>                     
+                <td colspan="3" align="left" valign="middle" class="tbValor">                        
+                    <span id="rptItensMedicao_ctl02_lblTotalBase">R$3.500.050,00</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2" align="left" valign="middle" class="tbValor">                                              
+                    <span id="rptItensMedicao_ctl02_lblQtdeAcumulado" title="2.00">2.00</span>
+                </td>
+                <td colspan="3" align="left" valign="middle" class="tbValor">                        
+                    <span id="rptItensMedicao_ctl02_lblTotalAcumulado">R$140.002,00</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2" align="left" valign="middle" class="tbValor borderL" style="border-left: 3px solid red">
+                    <span id="rptItensMedicao_ctl02_lblQuantidade" title="1.00">1.00</span>
+                </td>
+                <td colspan="3" align="left" valign="middle" class="tbValor borderR" style="border-right: 3px solid red">                        
+                    <span id="rptItensMedicao_ctl02_lblTotalAtual">R$70.001,00</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2" align="left" valign="middle" class="tbValor">                        
+                    <span id="rptItensMedicao_ctl02_lblQtdeAcumAtual" title="3.00">3.00</span>
+                </td>                    
+                <td colspan="3" align="left" valign="middle" class="tbValor">
+                    <span id="rptItensMedicao_ctl02_lblTotalAcumAtual">R$210.003,00</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2" align="left" valign="middle">
+                    <span id="rptItensMedicao_ctl02_Label2" title="47.00">47.00</span>
+                </td>                    
+                <td colspan="3" align="left" valign="middle" class="tbValor">
+                    <span id="rptItensMedicao_ctl02_lblValorSaldo">R$3.290.047,00</span>
+                </td>     
+                <td class="colDiv"></td>
+                <td align="center" valign="middle">
+                    <span id="rptItensMedicao_ctl02_lblObservacao" class="lblTitulo"></span>
+                </td>                    
+            </tr>
+        
+            <tr style="background-color: Tan; font-weight: bold;">
+                <td colspan="3" style="background-color:white; border-left:0px; border-top:1px solid tan;"></td><td style="background-color:white; border:0px;"></td>
+                <td colspan="3">
+                    <strong>Total R$:</strong>  
+                </td>
+                <td colspan="5" style="padding-left:10px">
+                    <span id="rptItensMedicao_ctl03_lblSumTotalBase" class="lblTitulo">R$5.500.050,00</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2">
+                    <span id="rptItensMedicao_ctl03_lblTituloTotalAcumulado" class="lblTitulo">Total R$:</span>
+                </td>
+                <td colspan="3">
+                    <span id="rptItensMedicao_ctl03_lblSumTotalAcumulado" class="lblTitulo">R$200.002,00</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2" class="borderL" style="border-left: 3px solid red">
+                    <span id="rptItensMedicao_ctl03_lblTituloTotalAtual" class="lblTitulo boletimBold">Total R$:</span>
+                </td>
+                <td colspan="3" colspan="5" class="borderR" style="border-right: 3px solid red">
+                    <span id="rptItensMedicao_ctl03_lblSumTotalAtual" class="lblTitulo boletimBold">R$70.001,00</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2">
+                    <span id="rptItensMedicao_ctl03_lblTituloTotalAcumAtual" class="lblTitulo">Total R$:</span>
+                </td>
+                <td colspan="3">
+                    <span id="rptItensMedicao_ctl03_lblSumTotalAcumAtual" class="lblTitulo">R$270.003,00</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2">
+                    <span id="rptItensMedicao_ctl03_lblTituloValorSaldo" class="lblTitulo">Total R$:</span>
+                </td>
+                <td colspan="3">
+                    <span id="rptItensMedicao_ctl03_lblSumValorSaldo" class="lblTitulo">R$5.230.047,00</span>
+                </td>
+                <td class="colDiv" style="border-right:0px;"></td>
+                <td style="background-color:white; border-right:0px; border-top:1px solid tan;"></td>
+            </tr>
+            <tr style="height: 2px">
+            </tr>
+            <tr class="boletimTable" style="background-color: Tan; font-weight: bold;">
+                <td colspan="3" style="background-color:white; border-left:0px;"></td><td style="background-color:white; border:0px;"></td>
+                <td colspan="3"> 
+                    <strong>Total %:</strong>  
+                </td>
+                <td colspan="5" style="padding-left:10px">
+                    <span id="rptItensMedicao_ctl03_lblSumTotalBasePercent" class="lblTitulo">100,00%</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2">
+                    <span id="rptItensMedicao_ctl03_Label4" class="lblTitulo">Total %:</span>
+                </td>
+                <td colspan="3">
+                    <span id="rptItensMedicao_ctl03_lblSumTotalAcumuladoPercent" class="lblTitulo">3,64%</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2" class="borderL borderB" style="border-bottom: 3px solid red; border-left: 3px solid red">
+                    <span id="rptItensMedicao_ctl03_Label6" class="lblTitulo boletimBold">Total %:</span>
+                </td>
+                <td colspan="3" class="borderR borderB" style="border-bottom: 3px solid red; border-right: 3px solid red">
+                    <span id="rptItensMedicao_ctl03_lblSumTotalAtualPercent" class="lblTitulo boletimBold">1,27%</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2">
+                    <span id="rptItensMedicao_ctl03_Label8" class="lblTitulo">Total %:</span>
+                </td>
+                <td colspan="3">
+                    <span id="rptItensMedicao_ctl03_lblSumTotalAcumAtualPercent" class="lblTitulo">4,91%</span>
+                </td>
+                <td class="colDiv"></td>
+                <td colspan="2">
+                    <span id="rptItensMedicao_ctl03_Label10" class="lblTitulo">Total %:</span>
+                </td>
+                <td colspan="3">
+                    <span id="rptItensMedicao_ctl03_lblSumValorSaldoPercent" class="lblTitulo">95,09%</span>
+                </td>
+                <td class="colDiv" style="border-right:0px;"></td>
+                <td style="background-color:white; border-right:0px; "></td>
+            </tr>
+            </tbody>
+    </table>
+    <br />
+        
+
+    </div>
+    
+    
+</div>
+        <div style="clear:both; float:left;">
+        <input type="submit" name="btnBaixarEvidencias" value="Baixar Documentos" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnBaixarEvidencias&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnBaixarEvidencias" class="btn retirarBoletim" style="width:150px;display: none" />
+    </div> 
+
+        
+
+    
+</div>
